@@ -1,4 +1,5 @@
 import Link from "next/link"
+import services from "@/data/services"
 
 export default function Footer3() {
     return (
@@ -134,38 +135,16 @@ export default function Footer3() {
                                         </svg>
                                     </h5>
                                     <ul className="link-footer d-grid gap-xxl-5 gap-4" data-aos="zoom-in" data-aos-duration={1400}>
-                                        <li>
-                                            <Link href="/service" className="d-flex align-items-center gap-2 flink-items pra-clr">
-                                                <span className="ani-icons">
-                                                    <i className="fas fa-angle-double-right pra-clr" />
-                                                </span>
-                                                UI/UX Experience
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="/service" className="d-flex align-items-center gap-2 flink-items pra-clr">
-                                                <span className="ani-icons">
-                                                    <i className="fas fa-angle-double-right pra-clr" />
-                                                </span>
-                                                Web Development
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="/service" className="d-flex align-items-center gap-2 flink-items pra-clr">
-                                                <span className="ani-icons">
-                                                    <i className="fas fa-angle-double-right pra-clr" />
-                                                </span>
-                                                Product Design
-                                            </Link>
-                                        </li>
-                                        <li>
-                                            <Link href="/service" className="d-flex align-items-center gap-2 flink-items pra-clr">
-                                                <span className="ani-icons">
-                                                    <i className="fas fa-angle-double-right pra-clr" />
-                                                </span>
-                                                SEO Optimization
-                                            </Link>
-                                        </li>
+                                        {services.slice(0, 4).map((service) => (
+                                            <li key={service.slug}>
+                                                <Link href={`/service/${service.slug}`} className="d-flex align-items-center gap-2 flink-items pra-clr">
+                                                    <span className="ani-icons">
+                                                        <i className="fas fa-angle-double-right pra-clr" />
+                                                    </span>
+                                                    {service.shortTitle}
+                                                </Link>
+                                            </li>
+                                        ))}
                                     </ul>
                                 </div>
                             </div>
@@ -213,10 +192,10 @@ export default function Footer3() {
                                 © All Copyright {new Date().getFullYear()} by <Link href="/" className="theme-clr">creoKoncepts</Link>
                             </p>
                             <div className="d-flex align-items-center gap-3">
-                                <Link href="/#" className="pra-clr">
+                                <Link href="/terms-conditions" className="pra-clr">
                                     Terms &amp; Conditions
                                 </Link>
-                                <Link href="/#" className="pra-clr">
+                                <Link href="/privacy-policy" className="pra-clr">
                                     Privacy Policy
                                 </Link>
                             </div>

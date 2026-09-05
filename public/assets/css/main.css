@@ -5560,4 +5560,114 @@ input.main-search-input::placeholder {
     z-index: 9;
 }
 
+
+/* Bootstrap sets a:hover to its own blue link colour, which overrides the theme
+   a{color:var(--white)} rule because a:hover has higher specificity. Restore the
+   theme accent for any link that does not define its own hover colour. */
+a:hover {
+    color: var(--theme);
+}
+
+
+/* "Explore Other Services" cards on the service detail pages. The theme only
+   styles .serial-badge / .mtitle inside the accordion, so these cards need the
+   same treatment scoped to themselves. */
+.service-mini-card {
+    border: 1px solid var(--border1);
+    border-radius: 12px;
+    overflow: hidden;
+    transition: all 0.4s ease-in-out;
+}
+
+.service-mini-card:hover {
+    border-color: var(--theme);
+}
+
+.service-mini-card .serial-badge {
+    padding: 8px 16px;
+    opacity: 0.6;
+    transition: all 0.4s;
+}
+
+.service-mini-card:hover .serial-badge {
+    opacity: 1;
+}
+
+.service-mini-card .serial-badge .rot60 {
+    padding-left: 10px;
+}
+
+.service-mini-card .mtitle {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.service-mini-card .pras {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+@media (max-width: 1399px) {
+    .service-mini-card .mtitle {
+        font-size: 20px;
+    }
+}
+
+
+/* Long-form legal pages: Terms & Conditions, Privacy Policy. */
+.legal-content .legal-intro {
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+.legal-content .legal-block:not(:last-child) {
+    margin-bottom: 40px;
+}
+
+.legal-content .legal-block h4 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.legal-content p {
+    line-height: 1.75;
+}
+
+.legal-content .legal-list {
+    display: grid;
+    gap: 12px;
+}
+
+.legal-content .legal-list li {
+    position: relative;
+    padding-left: 18px;
+    line-height: 1.7;
+}
+
+.legal-content .legal-list li::before {
+    position: absolute;
+    left: 0;
+    top: 11px;
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--theme);
+}
+
+.legal-content .legal-contact-box {
+    border: 1px solid var(--border1);
+    border-radius: 12px;
+}
+
+@media (max-width: 767px) {
+    .legal-content .legal-block h4 {
+        font-size: 20px;
+    }
+
+    .legal-content .legal-intro {
+        font-size: 16px;
+    }
+}
+
 /*# sourceMappingURL=main.css.map */

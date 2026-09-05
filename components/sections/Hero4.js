@@ -27,7 +27,7 @@ export default function Hero4() {
                                     brand visions into digital masterpieces through branding, web design,
                                     social media, SEO, and ad films.
                                 </p>
-                                <Link href="#" className="explore-more d-inline-flex align-items-center gap-1">
+                                <Link href="/service" className="explore-more d-inline-flex align-items-center gap-1">
                                     Explore More
                                     <span className="rot60">
                                         <i className="fas fa-arrow-up" />

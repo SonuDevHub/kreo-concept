@@ -1,58 +1,9 @@
 'use client'
 import Layout from "@/components/layout/Layout"
 import { useState } from 'react'
+import Link from "next/link"
 import WhyKreo from "@/components/sections/WhyKreo"
-
-const services = [
-    {
-        title: "SEO & Growth Hacking",
-        desc: "Dominate search engines with strategies that put your brand in the spotlight.",
-        points: ["Keyword Strategy", "On-Page & Technical SEO", "Growth Hacking Tactics", "Analytics & Reporting"],
-        img: "home-page-services.png",
-    },
-    {
-        title: "Social Media Alchemy",
-        desc: "From viral campaigns to influencer collaborations, we turn likes into leads.",
-        points: ["Content Calendars", "Influencer Collaborations", "Community Management", "Paid Social Campaigns"],
-        img: "home-page-services.png",
-    },
-    {
-        title: "Creative Brilliance",
-        desc: "Eye-catching graphics, stunning branding, and immersive UI/UX design that speak volumes.",
-        points: ["Graphic Design", "Brand Identity", "UI/UX Design", "Motion Graphics"],
-        img: "home-page-services.png",
-    },
-    {
-        title: "Website Wonders",
-        desc: "Seamless, user-friendly websites designed to impress and convert on any platform.",
-        points: ["E-commerce Websites", "Corporate Websites", "Landing Pages", "Custom Platforms"],
-        img: "home-page-services.png",
-    },
-    {
-        title: "TVC & Ad Films",
-        desc: "High-impact storytelling that turns audiences into loyal customers.",
-        points: ["Script & Storyboarding", "Production & Direction", "Post-Production", "Multi-Platform Distribution"],
-        img: "home-page-services.png",
-    },
-    {
-        title: "Branding & Strategy",
-        desc: "Elevating businesses with strategies that cut through the noise.",
-        points: ["Brand Identity", "Positioning Strategy", "Visual Design Systems", "Market Research"],
-        img: "home-page-services.png",
-    },
-    {
-        title: "Lead Generation & Ads",
-        desc: "Smart campaigns that bring in real results, not just impressions.",
-        points: ["Google Ads", "Meta Ads", "Conversion Tracking", "Funnel Optimization"],
-        img: "home-page-services.png",
-    },
-    {
-        title: "Ad Copy & Content that Sells",
-        desc: "Words that not only engage but drive action and conversions.",
-        points: ["Website Copy", "Ad Scripts", "Blog & SEO Content", "Email Campaigns"],
-        img: "home-page-services.png",
-    },
-]
+import services from "@/data/services"
 
 export default function Service() {
     const [isAccordion, setIsAccordion] = useState(1)
@@ -80,7 +31,7 @@ export default function Service() {
                             <div className="row g-xxl-6 g-4">
                                 <div className="service-tabing-wrap Faqs-section position-relative">
                                     {services.map((s, i) => (
-                                        <div key={i} className={`accordion-single py-xxl-9 py-xl-7 py-lg-6 py-5 bt-border ${i === services.length - 1 ? "bb-border" : ""} ${isAccordion === i + 1 ? "active" : ""}`}>
+                                        <div key={s.slug} className={`accordion-single py-xxl-9 py-xl-7 py-lg-6 py-5 bt-border ${i === services.length - 1 ? "bb-border" : ""} ${isAccordion === i + 1 ? "active" : ""}`}>
                                             <div className="header-area" onClick={() => handleAccordion(i + 1)}>
                                                 <div className="accordion-btn justify-content-between d-flex align-items-center text-start d-flex position-relative w-100">
                                                     <div className="mtitle-ara">
@@ -90,12 +41,18 @@ export default function Service() {
                                                                 <i className="fa-solid fa-arrow-right" />
                                                             </span>
                                                         </span>
-                                                        <span className="mtitle d-block mt-6 white-clr">
+                                                        <Link href={`/service/${s.slug}`} className="mtitle d-block mt-6 white-clr">
                                                             {s.title}
-                                                        </span>
+                                                        </Link>
                                                         <span className="pras mt-xxl-7 mt-xl-5 mt-4 d-block">
                                                             {s.desc}
                                                         </span>
+                                                        <Link href={`/service/${s.slug}`} className="explore-more d-inline-flex align-items-center gap-1 mt-xxl-6 mt-4 theme-clr">
+                                                            Read More
+                                                            <span className="rot60">
+                                                                <i className="fas fa-arrow-up" />
+                                                            </span>
+                                                        </Link>
                                                     </div>
                                                     <div className="images-remove-area d-lg-flex d-none align-items-center gap-xxl-8 gap-4">
                                                         <ul className="modern-list d-grid gap-2">
@@ -105,9 +62,9 @@ export default function Service() {
                                                                 </li>
                                                             ))}
                                                         </ul>
-                                                        <div className="tab-remove-thumb">
-                                                            <img src={`/assets/img/stock/${s.img}`} alt="img" />
-                                                        </div>
+                                                        <Link href={`/service/${s.slug}`} className="tab-remove-thumb">
+                                                            <img src={`/assets/img/stock/${s.img}`} alt={s.title} />
+                                                        </Link>
                                                     </div>
                                                 </div>
                                             </div>
