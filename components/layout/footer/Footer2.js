@@ -28,8 +28,8 @@ export default function Footer2() {
                                                     <line y1={-1} x2={83} y2={-1} transform="matrix(1 0 0 -1 0 0)" stroke="url(#paint0_linear_6308_43042)" strokeWidth={2} />
                                                     <defs>
                                                         <linearGradient id="paint0_linear_6308_43042" x1="4.02912" y1="0.000277584" x2={80} y2="0.000110496" gradientUnits="userSpaceOnUse">
-                                                            <stop offset={0} stopColor="#E2AD43" />
-                                                            <stop offset={1} stopColor="#E2AD43" stopOpacity={0} />
+                                                            <stop offset={0} stopColor="#f0ad2b" />
+                                                            <stop offset={1} stopColor="#f0ad2b" stopOpacity={0} />
                                                         </linearGradient>
                                                     </defs>
                                                 </svg>
@@ -68,8 +68,8 @@ export default function Footer2() {
                                                     <line y1={-1} x2={83} y2={-1} transform="matrix(1 0 0 -1 0 0)" stroke="url(#paint0_linear_6308_43)" strokeWidth={2} />
                                                     <defs>
                                                         <linearGradient id="paint0_linear_6308_43" x1="4.02912" y1="0.000277584" x2={80} y2="0.000110496" gradientUnits="userSpaceOnUse">
-                                                            <stop offset={0} stopColor="#E2AD43" />
-                                                            <stop offset={1} stopColor="#E2AD43" stopOpacity={0} />
+                                                            <stop offset={0} stopColor="#f0ad2b" />
+                                                            <stop offset={1} stopColor="#f0ad2b" stopOpacity={0} />
                                                         </linearGradient>
                                                     </defs>
                                                 </svg>

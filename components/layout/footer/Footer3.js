@@ -14,8 +14,8 @@ export default function Footer3() {
                             </span>
                             <Link href="/contact" className="footer-arrow-icon d-inline-flex" data-aos="zoom-in" data-aos-duration={2000}>
                                 <svg width="100%" height="100%" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <circle cx={50} cy={50} r={47} stroke="#E2AD43" strokeWidth={2} />
-                                    <path d="M35 65L65 35M65 35H42M65 35V58" stroke="#E2AD43" strokeWidth={4} strokeLinecap="round" strokeLinejoin="round" />
+                                    <circle cx={50} cy={50} r={47} stroke="#f0ad2b" strokeWidth={2} />
+                                    <path d="M35 65L65 35M65 35H42M65 35V58" stroke="#f0ad2b" strokeWidth={4} strokeLinecap="round" strokeLinejoin="round" />
                                 </svg>
                             </Link>
                         </div>
@@ -28,8 +28,8 @@ export default function Footer3() {
                                             <line y1={-1} x2={83} y2={-1} transform="matrix(1 0 0 -1 0 0)" stroke="url(#paint0_linear_6308_4304)" strokeWidth={2} />
                                             <defs>
                                                 <linearGradient id="paint0_linear_6308_43041" x1="4.02912" y1="0.000277584" x2={80} y2="0.000110496" gradientUnits="userSpaceOnUse">
-                                                    <stop offset={0} stopColor="#E2AD43" />
-                                                    <stop offset={1} stopColor="#E2AD43" stopOpacity={0} />
+                                                    <stop offset={0} stopColor="#f0ad2b" />
+                                                    <stop offset={1} stopColor="#f0ad2b" stopOpacity={0} />
                                                 </linearGradient>
                                             </defs>
                                         </svg>
@@ -86,8 +86,8 @@ export default function Footer3() {
                                             <line y1={-1} x2={83} y2={-1} transform="matrix(1 0 0 -1 0 0)" stroke="url(#paint0_linear_6308_4304)" strokeWidth={2} />
                                             <defs>
                                                 <linearGradient id="paint0_linear_6308_4304" x1="4.02912" y1="0.000277584" x2={80} y2="0.000110496" gradientUnits="userSpaceOnUse">
-                                                    <stop offset={0} stopColor="#E2AD43" />
-                                                    <stop offset={1} stopColor="#E2AD43" stopOpacity={0} />
+                                                    <stop offset={0} stopColor="#f0ad2b" />
+                                                    <stop offset={1} stopColor="#f0ad2b" stopOpacity={0} />
                                                 </linearGradient>
                                             </defs>
                                         </svg>
@@ -128,8 +128,8 @@ export default function Footer3() {
                                             <line y1={-1} x2={83} y2={-1} transform="matrix(1 0 0 -1 0 0)" stroke="url(#paint0_linear_6308_4305)" strokeWidth={2} />
                                             <defs>
                                                 <linearGradient id="paint0_linear_6308_4305" x1="4.02912" y1="0.000277584" x2={80} y2="0.000110496" gradientUnits="userSpaceOnUse">
-                                                    <stop offset={0} stopColor="#E2AD43" />
-                                                    <stop offset={1} stopColor="#E2AD43" stopOpacity={0} />
+                                                    <stop offset={0} stopColor="#f0ad2b" />
+                                                    <stop offset={1} stopColor="#f0ad2b" stopOpacity={0} />
                                                 </linearGradient>
                                             </defs>
                                         </svg>
@@ -156,8 +156,8 @@ export default function Footer3() {
                                             <line y1={-1} x2={83} y2={-1} transform="matrix(1 0 0 -1 0 0)" stroke="url(#paint0_linear_6308_4306)" strokeWidth={2} />
                                             <defs>
                                                 <linearGradient id="paint0_linear_6308_4306" x1="4.02912" y1="0.000277584" x2={80} y2="0.000110496" gradientUnits="userSpaceOnUse">
-                                                    <stop offset={0} stopColor="#E2AD43" />
-                                                    <stop offset={1} stopColor="#E2AD43" stopOpacity={0} />
+                                                    <stop offset={0} stopColor="#f0ad2b" />
+                                                    <stop offset={1} stopColor="#f0ad2b" stopOpacity={0} />
                                                 </linearGradient>
                                             </defs>
                                         </svg>

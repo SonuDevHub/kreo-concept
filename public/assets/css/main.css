@@ -13,7 +13,8 @@ Version: 1.0.0
     --black: #180b0c;
     --white: #fff;
     --spantext: #757575;
-    --theme: #E2AD43;
+    --theme: #f0ad2b;
+    --theme2: #a94b4c;
     --bg1: #241012;
     --bg2: #2b1416;
     --bg3: #fff;
@@ -3991,7 +3992,7 @@ input.main-search-input::placeholder {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(180deg, rgba(239, 100, 76, 0) 64.05%, #E2AD43 115.68%);
+    background: linear-gradient(180deg, rgba(169, 75, 76, 0) 64.05%, #f0ad2b 115.68%);
     transition: all 0.5s;
 }
 
@@ -4051,7 +4052,7 @@ input.main-search-input::placeholder {
 
 .team-card01:hover .thumb::before {
     bottom: 0;
-    background: linear-gradient(180deg, rgba(239, 100, 76, 0) 64.05%, #E2AD43 115.68%);
+    background: linear-gradient(180deg, rgba(169, 75, 76, 0) 64.05%, #f0ad2b 115.68%);
 }
 
 .team-card01:hover .thumb .common-social {
@@ -4990,7 +4991,7 @@ input.main-search-input::placeholder {
     content: "";
     width: 100%;
     height: 60px;
-    background: linear-gradient(90deg, #E2AD43 0%, rgba(239, 100, 76, 0.1) 60.08%);
+    background: linear-gradient(90deg, #f0ad2b 0%, rgba(169, 75, 76, 0.1) 60.08%);
     border-radius: 100px;
     z-index: -1;
     opacity: 0;

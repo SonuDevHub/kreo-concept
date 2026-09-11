@@ -16,7 +16,7 @@ export default function Hero3() {
                                     </span>
                                     <span className="d-flex justify-content-md-start justify-content-center align-items-center gap-xxl-5 gap-3" data-aos="zoom-in-left" data-aos-duration={1600}>
                                         <svg width={72} height={72} viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M52.3915 33.7021V65.566H72V0H6.43404V19.6085H38.2979L0 57.9064L14.0936 72L52.3915 33.7021Z" fill="#E2AD43" />
+                                            <path d="M52.3915 33.7021V65.566H72V0H6.43404V19.6085H38.2979L0 57.9064L14.0936 72L52.3915 33.7021Z" fill="#f0ad2b" />
                                         </svg>
                                         <span className="italic">
                                             Transform
