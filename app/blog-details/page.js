@@ -14,7 +14,7 @@ export default function BlogDetails() {
                                 <div className="blog-post-details mb-xxl-10 mb-xl-8 mb-lg-7 mb-6">
                                     <div className="single-blog-post">
                                         <div className="post-featured-thumb w-100 mb-xxl-30 mb-xl-6 mb-5" data-aos="zoom-in" data-aos-duration={1400}>
-                                            <img src="/assets/img/blog/blog-details-b1.png" alt="img" className="w-100" />
+                                            <img src="/assets/img/stock/blog.png" alt="Branding mistakes that cost customers" className="w-100" />
                                         </div>
                                         <div className="post-content">
                                             <div className="post-marry d-flex align-items-center gap-xxl-8 gap-xl-6 gap-4 gap-3 mb-xxl-5 mb-xl-4 mb-lg-3 mb-3" data-aos="fade-left" data-aos-duration={1500}>
@@ -52,12 +52,12 @@ export default function BlogDetails() {
                                             <div className="row g-xl-4 g-3 mb-xxl-10 mb-xl-7 mb-lg-6 mb-4">
                                                 <div className="col-lg-6 col-md-6 col-sm-6" data-aos="zoom-in" data-aos-duration={1500}>
                                                     <div className="details-thumb-b1 w-100">
-                                                        <img src="/assets/img/blog/blog-details-s2.png" alt="img" className="w-100" />
+                                                        <img src="/assets/img/stock/service-slide1.png" alt="Brand design work in progress" className="w-100" />
                                                     </div>
                                                 </div>
                                                 <div className="col-lg-6 col-md-6 col-sm-6" data-aos="zoom-in" data-aos-duration={1600}>
                                                     <div className="details-thumb-b1 w-100">
-                                                        <img src="/assets/img/blog/blog-details-s1.png" alt="img" className="w-100" />
+                                                        <img src="/assets/img/stock/service-slide2.png" alt="Design thinking reference book" className="w-100" />
                                                     </div>
                                                 </div>
                                             </div>
@@ -171,7 +171,7 @@ export default function BlogDetails() {
                                     <div className="col-lg-6" data-aos="zoom-in" data-aos-duration={1400}>
                                         <div className="recent-items bg1-clr d-flex align-items-center gap-xxl-5 gap-xl-4 gap-lg-3 gap-2 py-xxl-6 py-xl-4 py-3 px-xxl-7 px-xl-5 px-lg-4 px-3">
                                             <Link href="#" className="recent-thumb">
-                                                <img src="/assets/img/blog/details-small3.png" alt="img" />
+                                                <img src="/assets/img/stock/home-page-services.png" alt="Local SEO guide" />
                                             </Link>
                                             <div className="recent-content">
                                                 <span className="pra-clr d-block mb-1 fs14">
@@ -186,7 +186,7 @@ export default function BlogDetails() {
                                     <div className="col-lg-6" data-aos="zoom-in" data-aos-duration={1400}>
                                         <div className="recent-items bg1-clr d-flex align-items-center gap-xxl-5 gap-xl-4 gap-lg-3 gap-2 py-xxl-6 py-xl-4 py-3 px-xxl-7 px-xl-5 px-lg-4 px-3">
                                             <Link href="#" className="recent-thumb">
-                                                <img src="/assets/img/blog/details-small4.png" alt="img" />
+                                                <img src="/assets/img/stock/our-process-main-image.png" alt="Social media strategy" />
                                             </Link>
                                             <div className="recent-content">
                                                 <span className="pra-clr d-block mb-1 fs14">
@@ -289,7 +289,7 @@ export default function BlogDetails() {
                                         <div className="recent-postwrap">
                                             <div className="recent-items d-flex align-items-center gap-xxl-5 gap-xl-4 gap-lg-3 gap-2" data-aos="fade-down" data-aos-duration={1200}>
                                                 <Link href="#" className="recent-thumb">
-                                                    <img src="/assets/img/blog/details-small1.png" alt="img" />
+                                                    <img src="/assets/img/stock/blog-hover.png" alt="Ad films that drive sales" />
                                                 </Link>
                                                 <div className="recent-content">
                                                     <span className="pra-clr d-block mb-1">
@@ -302,7 +302,7 @@ export default function BlogDetails() {
                                             </div>
                                             <div className="recent-items d-flex align-items-center gap-xxl-5 gap-xl-4 gap-lg-3 gap-2" data-aos="fade-down" data-aos-duration={1400}>
                                                 <Link href="#" className="recent-thumb">
-                                                    <img src="/assets/img/blog/details-small2.png" alt="img" />
+                                                    <img src="/assets/img/stock/projects.png" alt="Copywriting that converts" />
                                                 </Link>
                                                 <div className="recent-content">
                                                     <span className="pra-clr d-block mb-1">
@@ -315,7 +315,7 @@ export default function BlogDetails() {
                                             </div>
                                             <div className="recent-items d-flex align-items-center gap-xxl-5 gap-xl-4 gap-lg-3 gap-2" data-aos="fade-down" data-aos-duration={1600}>
                                                 <Link href="#" className="recent-thumb">
-                                                    <img src="/assets/img/blog/details-small3.png" alt="img" />
+                                                    <img src="/assets/img/stock/home-page-services.png" alt="Design trends in digital marketing" />
                                                 </Link>
                                                 <div className="recent-content">
                                                     <span className="pra-clr d-block mb-1">

@@ -4,12 +4,12 @@ export default function Product1() {
     return (
         <>
 
-            <section className="about-product pt-space">
+            <section className="about-product pt-space pb-space">
                 <div className="container">
                     <div className="row g-xxl-7 g-5">
                         <div className="col-lg-6 col-md-6 col-sm-8">
                             <div className="about-product-thumb w-100" data-aos="zoom-in" data-aos-duration={2000}>
-                                <img src="/assets/img/about/about-v1thumb.png" alt="img" className="w-100" />
+                                <img src="/assets/img/stock/about.png" alt="Creokoncepts" className="w-100" />
                             </div>
                         </div>
                         <div className="col-lg-6">
@@ -19,49 +19,49 @@ export default function Product1() {
                                         WE PROUD THAT
                                     </div>
                                     <h2 className="stitle mb-xxl-8 mb-xl-7 mb-xl-5 mb-4" data-aos="fade-up" data-aos-duration={1600}>
-                                        Discover <span className="fw-400 theme-clr">Our Awards</span>
+                                        Meet <span className="fw-400 theme-clr">Creokoncepts</span>
                                     </h2>
                                     <p className="white-clr mb-xxl-9 mb-xl-7 mb-xl-6 mb-6" data-aos="fade-up" data-aos-duration={1900}>
-                                        Bring to the table win-win survival strategies to ensure proactive domination. At
-                                        the end of the day, going forward, a
-                                        new normal that has evolved from generation on the runway heading towards a
-                                        streamlined
+                                        We are a Noida-based digital agency that has spent 14+ years turning brand
+                                        visions into work people actually remember. Strategy, design, media, and
+                                        production sit under one roof, so your brand gets one team, one plan, and
+                                        one standard of craft from the first idea to the final result.
                                     </p>
                                     <div className="discover-dating" data-aos="fade-up" data-aos-duration={2200}>
                                         <div className="allyear d-flex align-items-center justify-content-between mb-xxl-4 mb-xl-3">
                                             <h5 className="fw-medium theme-clr">
-                                                2019
+                                                Brand
                                             </h5>
                                             <h5 className="fw-medium theme-clr">
-                                                2021
+                                                Grow
                                             </h5>
                                             <h5 className="fw-medium theme-clr">
-                                                2023
+                                                Convert
                                             </h5>
                                         </div>
                                         <div className="allyear-content d-flex justify-content-between">
                                             <div className="allyear-item">
                                                 <h5 className="white-clr mb-xxl-3 mb-2">
-                                                    Awwwards
+                                                    Identity
                                                 </h5>
                                                 <span className="spantext-clr">
-                                                    Website of the day
+                                                    Branding, design, websites
                                                 </span>
                                             </div>
                                             <div className="allyear-item">
                                                 <h5 className="white-clr mb-xxl-3 mb-2">
-                                                    Awwwards
+                                                    Visibility
                                                 </h5>
                                                 <span className="spantext-clr">
-                                                    National design contest
+                                                    SEO, social, paid media
                                                 </span>
                                             </div>
                                             <div className="allyear-item">
                                                 <h5 className="white-clr mb-xxl-3 mb-2">
-                                                    Awwwards
+                                                    Storytelling
                                                 </h5>
                                                 <span className="spantext-clr">
-                                                    Apps of the day
+                                                    Ad films, content, campaigns
                                                 </span>
                                             </div>
                                         </div>

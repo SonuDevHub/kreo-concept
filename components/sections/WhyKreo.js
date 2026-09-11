@@ -1,4 +1,3 @@
-
 const features = [
     {
         icon: "fa-lightbulb",
@@ -9,21 +8,6 @@ const features = [
         icon: "fa-chart-line",
         title: "Data-Driven Magic",
         desc: "Every decision backed by analytics and insights.",
-    },
-    {
-        icon: "fa-robot",
-        title: "AI-Infused Innovation",
-        desc: "We integrate cutting-edge technology for smarter marketing.",
-    },
-    {
-        icon: "fa-puzzle-piece",
-        title: "Tailor-Made Strategies",
-        desc: "No one-size-fits-all here — we craft solutions just for you.",
-    },
-    {
-        icon: "fa-award",
-        title: "Proven Success",
-        desc: "We measure success by real growth, not just vanity metrics.",
     },
     {
         icon: "fa-diagram-project",

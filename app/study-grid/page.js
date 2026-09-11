@@ -25,8 +25,8 @@ export default function StudyGrid() {
                                             </Link>
                                         </div>
                                         <h5>
-                                            <Link href="#" className="white-clr d-flex align-items-center justify-content-between gap-3">
-                                                A Simple Social Media Marketing Checklist
+                                            <Link href="/study-details" className="white-clr d-flex align-items-center justify-content-between gap-3">
+                                                Social Media Playbook That Built a Community
                                                 <span className="rot60">
                                                     <i className="fas fa-arrow-up theme-clr" />
                                                 </span>
@@ -50,8 +50,8 @@ export default function StudyGrid() {
                                             </Link>
                                         </div>
                                         <h5>
-                                            <Link href="#" className="white-clr d-flex align-items-center justify-content-between gap-3">
-                                                Transforming Challenges into Opportunities
+                                            <Link href="/study-details" className="white-clr d-flex align-items-center justify-content-between gap-3">
+                                                Website Redesign That Doubled Enquiries
                                                 <span className="rot60">
                                                     <i className="fas fa-arrow-up theme-clr" />
                                                 </span>
@@ -75,7 +75,7 @@ export default function StudyGrid() {
                                             </Link>
                                         </div>
                                         <h5>
-                                            <Link href="#" className="white-clr d-flex align-items-center justify-content-between gap-3">
+                                            <Link href="/study-details" className="white-clr d-flex align-items-center justify-content-between gap-3">
                                                 SEO Campaign That Tripled Organic Traffic
                                                 <span className="rot60">
                                                     <i className="fas fa-arrow-up theme-clr" />
@@ -100,7 +100,7 @@ export default function StudyGrid() {
                                             </Link>
                                         </div>
                                         <h5>
-                                            <Link href="#" className="white-clr d-flex align-items-center justify-content-between gap-3">
+                                            <Link href="/study-details" className="white-clr d-flex align-items-center justify-content-between gap-3">
                                                 Brand Identity Refresh for a Growing Startup
                                                 <span className="rot60">
                                                     <i className="fas fa-arrow-up theme-clr" />
@@ -125,7 +125,7 @@ export default function StudyGrid() {
                                             </Link>
                                         </div>
                                         <h5>
-                                            <Link href="#" className="white-clr d-flex align-items-center justify-content-between gap-3">
+                                            <Link href="/study-details" className="white-clr d-flex align-items-center justify-content-between gap-3">
                                                 Product Launch Ad Film Campaign
                                                 <span className="rot60">
                                                     <i className="fas fa-arrow-up theme-clr" />
@@ -150,7 +150,7 @@ export default function StudyGrid() {
                                             </Link>
                                         </div>
                                         <h5>
-                                            <Link href="#" className="white-clr d-flex align-items-center justify-content-between gap-3">
+                                            <Link href="/study-details" className="white-clr d-flex align-items-center justify-content-between gap-3">
                                                 Lead Generation Funnel for Real Estate
                                                 <span className="rot60">
                                                     <i className="fas fa-arrow-up theme-clr" />

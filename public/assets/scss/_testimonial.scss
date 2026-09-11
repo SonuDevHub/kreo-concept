@@ -30,9 +30,7 @@
 }
 //testimonial version 0.1
 .testimonial-version01-section {
-	background: url(../img/testimonial/test-vesion01bg.png) no-repeat center
-		center;
-	background-size: cover;
+	background: var(--bg1);
 	.slider-button {
 		position: absolute;
 		right: 240px;
@@ -184,6 +182,13 @@
 	@include maxQuery(400){
 		.testi-arrow{
 			display: none;
+		}
+	}
+}
+.testimonial-version01 {
+	.testimonial-zero-oneitem {
+		.content {
+			max-width: 760px;
 		}
 	}
 }

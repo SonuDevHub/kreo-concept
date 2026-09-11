@@ -22,14 +22,14 @@ export default function Team1() {
                     <div className="d-flex align-items-center justify-content-between flex-wrap gap-5 mb-xxl-15 mb-xl-12 mb-lg-10 mb-md-10 mb-sm-10 mb-9">
                         <div className="pricing-title">
                             <div className="radius-btn text-uppercase cmn-border d-inline-flex radius100 py-xxl-2 py-2 px-xxl-4 px-4 theme-clr gap-xxl-4 gap-3 mb-xxl-8 mb-xl-6 mb-5">
-                                oUR experts
+                                OUR EXPERTS
                             </div>
                             <h2 className="stitle">
-                                Meet our <span className="fw-400">creative</span> staff
+                                The <span className="fw-400">People</span> Behind The Work
                             </h2>
                         </div>
-                        <Link href="#" className="radius-btn d-inline-flex text-capitalize radius100 py-xxl-2 py-2 px-xxl-5 px-5 theme-border theme-clr gap-xxl-4 gap-3 mb-xxl-8 mb-xl-6 mb-5 style-2">
-                            view all teams
+                        <Link href="/team" className="radius-btn d-inline-flex text-capitalize radius100 py-xxl-2 py-2 px-xxl-5 px-5 theme-border theme-clr gap-xxl-4 gap-3 mb-xxl-8 mb-xl-6 mb-5 style-2">
+                            View Full Team
                             <span className="rot60 d-inline-block">
                                 <i className="fas fa-arrow-up theme-clr" />
                             </span>
@@ -73,7 +73,7 @@ export default function Team1() {
                                 </div>
                                 <div className="content">
                                     <span className="bspan-clr position-relative mb-xxl-4 mb-xxl-3 mb-3">
-                                        Programmer
+                                        Creative Director
                                     </span>
                                     <h5 className="white-clr whitehover">
                                         <Link href="/team-details" className="white-clr whitehover">Leslie Alexander</Link>
@@ -118,7 +118,7 @@ export default function Team1() {
                                 </div>
                                 <div className="content">
                                     <span className="bspan-clr position-relative mb-xxl-4 mb-xxl-3 mb-3">
-                                        UI/UX designer
+                                        Brand Designer
                                     </span>
                                     <h5 className="white-clr">
                                         <Link href="/team-details" className="white-clr whitehover">Darlene Robertson</Link>
@@ -163,7 +163,7 @@ export default function Team1() {
                                 </div>
                                 <div className="content">
                                     <span className="bspan-clr position-relative mb-xxl-4 mb-xxl-3 mb-3">
-                                        Web developer
+                                        Performance Marketer
                                     </span>
                                     <h5 className="white-clr">
                                         <Link href="/team-details" className="white-clr whitehover">Marvin McKinney</Link>
@@ -208,7 +208,7 @@ export default function Team1() {
                                 </div>
                                 <div className="content">
                                     <span className="bspan-clr position-relative mb-xxl-4 mb-xxl-3 mb-3">
-                                        CEO
+                                        Film & Content Lead
                                     </span>
                                     <h5 className="white-clr">
                                         <Link href="/team-details" className="white-clr whitehover">Esther Howard</Link>

@@ -13,7 +13,7 @@ export default function BlogGrid() {
                             <div className="col-lg-4 col-md-6 col-sm-6">
                                 <div className="blog-widget-item">
                                     <div className="thumb w-100 overflow-hidden mb-xxl-7 mb-xl-6 mb-4">
-                                        <img src="/assets/img/blog/mblog1.png" alt="img" className="w-100 overflow-hidden" />
+                                        <img src="/assets/img/stock/blog.png" alt="img" className="w-100 overflow-hidden" />
                                     </div>
                                     <div className="blog-cont">
                                         <div className="d-flex align-items-center gap-xxl-5 gap-xl-4 gap-3 mb-xxl-5 mb-xl-4 mb-3">
@@ -25,7 +25,7 @@ export default function BlogGrid() {
                                             </span>
                                         </div>
                                         <h5>
-                                            <Link href="#" className="white-clr">
+                                            <Link href="/blog-details" className="white-clr">
                                                 5 Branding Mistakes That Are Costing You Customers
                                             </Link>
                                         </h5>
@@ -35,7 +35,7 @@ export default function BlogGrid() {
                             <div className="col-lg-4 col-md-6 col-sm-6">
                                 <div className="blog-widget-item">
                                     <div className="thumb w-100 overflow-hidden mb-xxl-7 mb-xl-6 mb-4">
-                                        <img src="/assets/img/blog/mblog2.png" alt="img" className="w-100 overflow-hidden" />
+                                        <img src="/assets/img/stock/home-page-services.png" alt="img" className="w-100 overflow-hidden" />
                                     </div>
                                     <div className="blog-cont">
                                         <div className="d-flex align-items-center gap-xxl-5 gap-xl-4 gap-3 mb-xxl-5 mb-xl-4 mb-3">
@@ -50,7 +50,7 @@ export default function BlogGrid() {
                                             </span>
                                         </div>
                                         <h5>
-                                            <Link href="#" className="white-clr">
+                                            <Link href="/blog-details" className="white-clr">
                                                 The Ultimate Guide to Local SEO for Noida Businesses
                                             </Link>
                                         </h5>
@@ -60,7 +60,7 @@ export default function BlogGrid() {
                             <div className="col-lg-4 col-md-6 col-sm-6">
                                 <div className="blog-widget-item">
                                     <div className="thumb w-100 overflow-hidden mb-xxl-7 mb-xl-6 mb-4">
-                                        <img src="/assets/img/blog/mblog3.png" alt="img" className="w-100 overflow-hidden" />
+                                        <img src="/assets/img/stock/our-process-main-image.png" alt="img" className="w-100 overflow-hidden" />
                                     </div>
                                     <div className="blog-cont">
                                         <div className="d-flex align-items-center gap-xxl-5 gap-xl-4 gap-3 mb-xxl-5 mb-xl-4 mb-3">
@@ -75,7 +75,7 @@ export default function BlogGrid() {
                                             </span>
                                         </div>
                                         <h5>
-                                            <Link href="#" className="white-clr">
+                                            <Link href="/blog-details" className="white-clr">
                                                 Why Every Brand Needs a Social Media Strategy in 2026
                                             </Link>
                                         </h5>
@@ -85,7 +85,7 @@ export default function BlogGrid() {
                             <div className="col-lg-4 col-md-6 col-sm-6">
                                 <div className="blog-widget-item">
                                     <div className="thumb w-100 overflow-hidden mb-xxl-7 mb-xl-6 mb-4">
-                                        <img src="/assets/img/blog/mblog4.png" alt="img" className="w-100 overflow-hidden" />
+                                        <img src="/assets/img/stock/service-slide2.png" alt="img" className="w-100 overflow-hidden" />
                                     </div>
                                     <div className="blog-cont">
                                         <div className="d-flex align-items-center gap-xxl-5 gap-xl-4 gap-3 mb-xxl-5 mb-xl-4 mb-3">
@@ -100,7 +100,7 @@ export default function BlogGrid() {
                                             </span>
                                         </div>
                                         <h5>
-                                            <Link href="#" className="white-clr">
+                                            <Link href="/blog-details" className="white-clr">
                                                 From Concept to Conversion: How Ad Films Drive Sales
                                             </Link>
                                         </h5>
@@ -110,7 +110,7 @@ export default function BlogGrid() {
                             <div className="col-lg-4 col-md-6 col-sm-6">
                                 <div className="blog-widget-item">
                                     <div className="thumb w-100 overflow-hidden mb-xxl-7 mb-xl-6 mb-4">
-                                        <img src="/assets/img/blog/mblog5.png" alt="img" className="w-100 overflow-hidden" />
+                                        <img src="/assets/img/stock/projects.png" alt="img" className="w-100 overflow-hidden" />
                                     </div>
                                     <div className="blog-cont">
                                         <div className="d-flex align-items-center gap-xxl-5 gap-xl-4 gap-3 mb-xxl-5 mb-xl-4 mb-3">
@@ -125,7 +125,7 @@ export default function BlogGrid() {
                                             </span>
                                         </div>
                                         <h5>
-                                            <Link href="#" className="white-clr">
+                                            <Link href="/blog-details" className="white-clr">
                                                 Content That Converts: Writing Copy That Sells
                                             </Link>
                                         </h5>
@@ -135,7 +135,7 @@ export default function BlogGrid() {
                             <div className="col-lg-4 col-md-6 col-sm-6">
                                 <div className="blog-widget-item">
                                     <div className="thumb w-100 overflow-hidden mb-xxl-7 mb-xl-6 mb-4">
-                                        <img src="/assets/img/blog/mblog6.png" alt="img" className="w-100 overflow-hidden" />
+                                        <img src="/assets/img/stock/service-slide1.png" alt="img" className="w-100 overflow-hidden" />
                                     </div>
                                     <div className="blog-cont">
                                         <div className="d-flex align-items-center gap-xxl-5 gap-xl-4 gap-3 mb-xxl-5 mb-xl-4 mb-3">
@@ -150,7 +150,7 @@ export default function BlogGrid() {
                                             </span>
                                         </div>
                                         <h5>
-                                            <Link href="#" className="white-clr">
+                                            <Link href="/blog-details" className="white-clr">
                                                 Design Trends Shaping Digital Marketing This Year
                                             </Link>
                                         </h5>

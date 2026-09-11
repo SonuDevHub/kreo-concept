@@ -29,7 +29,7 @@ export default function VideoPopup({ style }) {
                 <span className="icons themebg radius100 d-center">
                     <i className="fas fa-play" />
                 </span>
-                <img src="/assets/img/element/watch-ciricle01.png" alt="img" className="circle" />
+                <img src="/assets/img/stock/our-process-circle.png" alt="img" className="circle" />
             </a>
             }
             <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="vfhzo499OeA" onClose={() => setOpen(false)} />

@@ -9,7 +9,7 @@ const swiperOptions = {
     speed: 1500,
     loop: true,
     autoplay: {
-        delay: 1500,
+        delay: 4000,
         disableOnInteraction: false,
     },
     navigation: {
@@ -24,6 +24,24 @@ const swiperOptions = {
     },
 }
 
+const testimonials = [
+    {
+        quote: "Creokoncepts rebuilt our brand identity from the ground up and the difference was visible within a quarter. The team understood our market, asked the right questions, and delivered design work we are genuinely proud to put in front of customers.",
+        name: "Rohit Malhotra",
+        role: "Marketing Head, Real Estate",
+    },
+    {
+        quote: "Their SEO and social media work brought us consistent, qualified leads instead of vanity numbers. Reporting is transparent, deadlines are respected, and every campaign is backed by a clear reason rather than guesswork.",
+        name: "Ananya Verma",
+        role: "Founder, D2C Brand",
+    },
+    {
+        quote: "From the first storyboard to the final cut, our ad film was handled with real craft. Creokoncepts kept the production tight, the message sharp, and the results speak for themselves across every channel we ran it on.",
+        name: "Karan Batra",
+        role: "Business Head, Automotive",
+    },
+]
+
 export default function Testimonial1() {
     return (
         <>
@@ -34,64 +52,28 @@ export default function Testimonial1() {
                         <div className="col-lg-11">
                             <div className="swiper testimonial-version01 position-relative">
                                 <Swiper {...swiperOptions} className="swiper-wrapper">
-                                    <SwiperSlide>
-                                        <div className="testimonial-zero-oneitem d-md-flex d-grid align-items-center justify-content-md-start justify-content-center text-md-start text-center gap-xxl-7 gap-xl-5 gap-4">
-                                            <div className="thumb">
-                                                <img src="/assets/img/testimonial/t-version01.png" alt="img" />
-                                            </div>
-                                            <div className="vector d-md-block d-none">
-                                                <img src="/assets/img/testimonial/vector01.png" alt="img" />
-                                            </div>
-                                            <div className="content ps-md-10">
-                                                <div className="icon mb-xxl-6 mb-xl-5 mb-4">
-                                                    <i className="fas fa-quote-right theme-clr" />
-                                                </div>
-                                                <p className="white-clr mb-xxl-7 mb-xl-6 mb-lg-5 mb-4">
-                                                    Posuere luctus orci. Donec vitae mattis quam, vitae tempor arcu. Aenean
-                                                    non odio porttitor, convallis erat sit amet,
-                                                    facilisis velit. Nulla ornare convallis malesuada. Phasellus molestie,
-                                                    ipsum ac fringilla.
-                                                </p>
-                                                <div className="desig">
-                                                    <h6 className="white-clr mb-2">
-                                                        Daniel Smith
-                                                    </h6>
-                                                    <span className="theme-clr">
-                                                        Senior engineer
-                                                    </span>
+                                    {testimonials.map((t, i) => (
+                                        <SwiperSlide key={i}>
+                                            <div className="testimonial-zero-oneitem d-md-flex d-grid align-items-center justify-content-md-start justify-content-center text-md-start text-center gap-xxl-7 gap-xl-5 gap-4">
+                                                <div className="content">
+                                                    <div className="icon mb-xxl-6 mb-xl-5 mb-4">
+                                                        <i className="fas fa-quote-right theme-clr" />
+                                                    </div>
+                                                    <p className="white-clr mb-xxl-7 mb-xl-6 mb-lg-5 mb-4">
+                                                        {t.quote}
+                                                    </p>
+                                                    <div className="desig">
+                                                        <h6 className="white-clr mb-2">
+                                                            {t.name}
+                                                        </h6>
+                                                        <span className="theme-clr">
+                                                            {t.role}
+                                                        </span>
+                                                    </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </SwiperSlide>
-                                    <SwiperSlide>
-                                        <div className="testimonial-zero-oneitem d-md-flex d-grid align-items-center justify-content-md-start justify-content-center text-md-start text-center gap-xxl-7 gap-xl-5 gap-4">
-                                            <div className="thumb">
-                                                <img src="/assets/img/testimonial/t-version01.png" alt="img" />
-                                            </div>
-                                            <div className="vector d-md-block d-none">
-                                                <img src="/assets/img/testimonial/vector01.png" alt="img" />
-                                            </div>
-                                            <div className="content ps-md-10">
-                                                <div className="icon mb-xxl-6 mb-xl-5 mb-4">
-                                                    <i className="fas fa-quote-right theme-clr" />
-                                                </div>
-                                                <p className="white-clr mb-xxl-7 mb-xl-6 mb-lg-5 mb-4">
-                                                    Posuere luctus orci. Donec vitae mattis quam, vitae tempor arcu. Aenean
-                                                    non odio porttitor, convallis erat sit amet,
-                                                    facilisis velit. Nulla ornare convallis malesuada. Phasellus molestie,
-                                                    ipsum ac fringilla.
-                                                </p>
-                                                <div className="desig">
-                                                    <h6 className="white-clr mb-2">
-                                                        Daniel Smith
-                                                    </h6>
-                                                    <span className="theme-clr">
-                                                        Senior engineer
-                                                    </span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </SwiperSlide>
+                                        </SwiperSlide>
+                                    ))}
                                 </Swiper>
                             </div>
                         </div>

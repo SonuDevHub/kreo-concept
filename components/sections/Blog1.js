@@ -1,6 +1,27 @@
 
 import Link from "next/link"
 
+const posts = [
+    {
+        title: "5 Branding Mistakes That Are Costing You Customers",
+        category: "Branding",
+        date: "MARCH 24, 2024",
+        img: "/assets/img/stock/blog.png",
+    },
+    {
+        title: "The Ultimate Guide to Local SEO for Noida Businesses",
+        category: "SEO",
+        date: "MARCH 24, 2024",
+        img: "/assets/img/stock/home-page-services.png",
+    },
+    {
+        title: "Why Every Brand Needs a Social Media Strategy in 2026",
+        category: "Social Media",
+        date: "MARCH 24, 2024",
+        img: "/assets/img/stock/our-process-main-image.png",
+    },
+]
+
 export default function Blog1() {
     return (
         <>
@@ -20,88 +41,40 @@ export default function Blog1() {
                             </h2>
                         </div>
                         <Link href="/blog-grid" className="radius-btn d-inline-flex radius100 py-xxl-2 py-2 px-xxl-5 px-5 theme-border theme-clr gap-xxl-4 gap-3 mb-xxl-8 mb-xl-6 mb-5 style-2">
-                            View all Artcile
+                            View All Articles
                             <span className="rot60 d-inline-block">
                                 <i className="fas fa-arrow-up theme-clr" />
                             </span>
                         </Link>
                     </div>
                     <div className="row g-xxl-7 g-xl-6 g-4">
-                        <div className="col-lg-4 col-md-6 col-sm-6">
-                            <div className="blog-widget-item">
-                                <div className="thumb w-100 overflow-hidden mb-xxl-7 mb-xl-6 mb-4">
-                                    <img src="/assets/img/blog/mblog1.png" alt="img" className="w-100 overflow-hidden" />
-                                </div>
-                                <div className="blog-cont">
-                                    <div className="d-flex align-items-center gap-xxl-5 gap-xl-4 gap-3 mb-xxl-5 mb-xl-4 mb-3">
-                                        <Link href="/blog-details" className="radius-btn cmn-border radius100 py-xxl-1 py-1 px-xxl-4 px-3 theme-clr style-2">
-                                            Creative
-                                            <span className="rot60 d-inline-block ml-10">
-                                                <i className="fas fa-arrow-up theme-clr" />
-                                            </span>
-                                        </Link>
-                                        <span className="bspan-clr">
-                                            MARCH 24, 2024
-                                        </span>
+                        {posts.map((post, i) => (
+                            <div className="col-lg-4 col-md-6 col-sm-6" key={i}>
+                                <div className="blog-widget-item">
+                                    <div className="thumb w-100 overflow-hidden mb-xxl-7 mb-xl-6 mb-4">
+                                        <img src={post.img} alt={post.title} className="w-100 overflow-hidden" />
                                     </div>
-                                    <h5>
-                                        <Link href="/blog-details" className="white-clr">
-                                            Transforming Challenges into
-                                        </Link>
-                                    </h5>
+                                    <div className="blog-cont">
+                                        <div className="d-flex align-items-center gap-xxl-5 gap-xl-4 gap-3 mb-xxl-5 mb-xl-4 mb-3">
+                                            <Link href="/blog-details" className="radius-btn cmn-border radius100 py-xxl-1 py-1 px-xxl-4 px-3 theme-clr style-2">
+                                                {post.category}
+                                                <span className="rot60 d-inline-block ml-10">
+                                                    <i className="fas fa-arrow-up theme-clr" />
+                                                </span>
+                                            </Link>
+                                            <span className="bspan-clr">
+                                                {post.date}
+                                            </span>
+                                        </div>
+                                        <h5>
+                                            <Link href="/blog-details" className="white-clr">
+                                                {post.title}
+                                            </Link>
+                                        </h5>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6 col-sm-6">
-                            <div className="blog-widget-item">
-                                <div className="thumb w-100 overflow-hidden mb-xxl-7 mb-xl-6 mb-4">
-                                    <img src="/assets/img/blog/mblog2.png" alt="img" className="w-100 overflow-hidden" />
-                                </div>
-                                <div className="blog-cont">
-                                    <div className="d-flex align-items-center gap-xxl-5 gap-xl-4 gap-3 mb-xxl-5 mb-xl-4 mb-3">
-                                        <Link href="/blog-details" className="radius-btn cmn-border radius100 py-xxl-1 py-1 px-xxl-4 px-3 theme-clr style-2">
-                                            Creative
-                                            <span className="rot60 d-inline-block ml-10">
-                                                <i className="fas fa-arrow-up theme-clr" />
-                                            </span>
-                                        </Link>
-                                        <span className="bspan-clr">
-                                            MARCH 24, 2024
-                                        </span>
-                                    </div>
-                                    <h5>
-                                        <Link href="/blog-details" className="white-clr">
-                                            Design Inspiration Where to Find
-                                        </Link>
-                                    </h5>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6 col-sm-6">
-                            <div className="blog-widget-item">
-                                <div className="thumb w-100 overflow-hidden mb-xxl-7 mb-xl-6 mb-4">
-                                    <img src="/assets/img/blog/mblog3.png" alt="img" className="w-100 overflow-hidden" />
-                                </div>
-                                <div className="blog-cont">
-                                    <div className="d-flex align-items-center gap-xxl-5 gap-xl-4 gap-3 mb-xxl-5 mb-xl-4 mb-3">
-                                        <Link href="/blog-details" className="radius-btn cmn-border radius100 py-xxl-1 py-1 px-xxl-4 px-3 theme-clr style-2">
-                                            Creative
-                                            <span className="rot60 d-inline-block ml-10">
-                                                <i className="fas fa-arrow-up theme-clr" />
-                                            </span>
-                                        </Link>
-                                        <span className="bspan-clr">
-                                            MARCH 24, 2024
-                                        </span>
-                                    </div>
-                                    <h5>
-                                        <Link href="/blog-details" className="white-clr">
-                                            Creating new working in the digital
-                                        </Link>
-                                    </h5>
-                                </div>
-                            </div>
-                        </div>
+                        ))}
                     </div>
                 </div>
             </section>

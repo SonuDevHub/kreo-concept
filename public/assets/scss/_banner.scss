@@ -82,9 +82,9 @@
 
 //Hero Section Version One
 .hero-section-version1 {
-	background: url(../img/banner/hero-bg1.png) no-repeat center center;
+	background: url(../img/stock/hero-background.png) no-repeat center center;
 	background-size: cover;
-	padding: 290px 5px 30px;
+	padding: 380px 5px 80px;
 	z-index: 1;
 	.hero-arrow {
 		position: absolute;
@@ -118,7 +118,7 @@
 		}
 	}
 	@include maxQuery(1600) {
-		padding: 220px 5px 30px;
+		padding: 320px 5px 70px;
 		.hero-arrow {
 			left: 24px;
 			bottom: 220px;
@@ -127,7 +127,7 @@
 		}
 	}
 	@include maxQuery(1399) {
-		padding: 180px 5px 30px;
+		padding: 280px 5px 60px;
 	}
 	@include maxQuery(1199) {
 		.hero-expriencebox {
@@ -139,7 +139,7 @@
 		}
 	}
 	@include maxQuery(991) {
-		padding: 180px 5px 100px;
+		padding: 240px 5px 140px;
 		.hero-arrow {
 			display: none;
 		}
@@ -155,7 +155,7 @@
 		}
 	}
 	@include maxQuery(767) {
-		padding: 160px 5px 90px;
+		padding: 200px 5px 110px;
 		.hero-expriencebox {
 			position: initial;
 			margin-top: 50px;
@@ -746,3 +746,31 @@
 	}
 }
 //Hero Section Version Four
+
+//Hero Section Version One - Creokoncepts overrides
+.hero-section-version1 {
+	.hero-v1-pra {
+		max-width: 620px;
+	}
+	.hero-expriencebox {
+		width: auto;
+		padding-left: 60px;
+		padding-right: 60px;
+		.expri-content {
+			padding: 10px 0;
+		}
+	}
+	@include maxQuery(991) {
+		.hero-expriencebox {
+			padding-left: 30px;
+			padding-right: 30px;
+		}
+	}
+	@include maxQuery(767) {
+		.hero-expriencebox {
+			width: 100%;
+			padding-left: 12px;
+			padding-right: 12px;
+		}
+	}
+}
