@@ -185,12 +185,12 @@
 			font-weight: 500;
 		}
 		.text-storke {
-			-webkit-text-stroke: 1px $theme;
+			-webkit-text-stroke: 1px $theme2;
 			-webkit-text-fill-color: transparent;
 		}
 		.designers {
 			-webkit-text-stroke-width: 1px;
-			-webkit-text-stroke-color: $theme;
+			-webkit-text-stroke-color: $theme2;
 			color: transparent;
 			transition: all 0.5s;
 			position: relative;
@@ -198,12 +198,12 @@
 		.designers::before {
 			content: attr(data-text);
 			position: absolute;
-			color: $theme;
+			color: $theme2;
 			width: 0px;
 			overflow: hidden;
 			animation: pulse-width 3s ease-in infinite;
 			-webkit-text-stroke-width: 1px;
-			-webkit-text-stroke-color: $theme;
+			-webkit-text-stroke-color: $theme2;
 		}
 
 		@keyframes pulse-width {
@@ -360,10 +360,10 @@
 			color: $white;
 		}
 		.explore-more {
-			border-bottom: 1px solid $theme;
-			color: $theme;
+			border-bottom: 1px solid $theme2;
+			color: $theme2;
 			i {
-				color: $theme;
+				color: $theme2;
 			}
 		}
 	}
@@ -391,7 +391,7 @@
 			font-size: 14px;
 			font-family: $heading-font;
 			&:hover {
-				color: $theme;
+				color: $theme2;
 			}
 		}
 	}
@@ -633,13 +633,13 @@
 	}
 }
 .explore-more {
-	border-bottom: 1px solid $theme;
-	color: $theme;
+	border-bottom: 1px solid $theme2;
+	color: $theme2;
 	i {
-		color: $theme;
+		color: $theme2;
 	}
 	&:hover{
-		color: $theme;
+		color: $theme2;
 	}
 }
 @keyframes lfr {
@@ -689,7 +689,7 @@
 		left: -90px;
 		top: 50%;
 		a:hover {
-			color: $theme;
+			color: $theme2;
 		}
 	}
 	.hero-v4-element {

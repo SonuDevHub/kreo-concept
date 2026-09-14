@@ -32,7 +32,7 @@
 				button {
 					outline: none;
 					border: unset;
-					color: $theme;
+					color: $theme2;
 				}
 			}
 		}
@@ -56,12 +56,12 @@
 							transition: all 0.4s;
 						}
 						&:hover {
-							color: $theme;
+							color: $theme2;
 							span {
-								color: $theme;
+								color: $theme2;
 							}
 							&::before {
-								background: $theme;
+								background: $theme2;
 							}
 						}
 					}
@@ -81,7 +81,7 @@
 				&:hover {
 					.recent-content {
 						a {
-							color: $theme;
+							color: $theme2;
 						}
 					}
 				}
@@ -96,7 +96,7 @@
 		}
 		.tagwrap {
 			a {
-				color: #646464;
+				color: #e8e2da;
 				font-size: 14px;
 				line-height: 27px;
 				display: inline-block;
@@ -106,7 +106,7 @@
 					margin-right: 0;
 				}
 				&:hover {
-					color: $theme !important;
+					color: $theme2 !important;
 				}
 			}
 		}
@@ -133,7 +133,7 @@
 
 				a {
 					&:hover {
-						color: $theme;
+						color: $theme2;
 					}
 				}
 			}
@@ -190,7 +190,7 @@
 		li {
 			a {
 				&:hover {
-					color: $theme;
+					color: $theme2;
 				}
 			}
 		}
@@ -206,9 +206,9 @@
 	a {
 		&:hover {
 			span {
-				color: $theme !important;
+				color: $theme2 !important;
 			}
-			color: $theme !important;
+			color: $theme2 !important;
 		}
 	}
 }
@@ -248,9 +248,9 @@
 	gap: 13px;
 	border-radius: 8px;
 	padding: 12px 26px;
-	background: $theme;
+	background: $theme2;
 	transition: all 0.5s;
-	border: 1px solid $theme;
+	border: 1px solid $theme2;
 	
 	i {
 		color: $black;
@@ -260,7 +260,7 @@
 	}
 	&:hover {
 		background: transparent;
-		border-color: $theme;
+		border-color: $theme2;
 		color: $white;
 
 		i {
@@ -289,7 +289,7 @@
 		h5 {
 			transform: scale(0.9);
 			a {
-				color: $theme;
+				color: $theme2;
 			}
 		}
 	}
@@ -353,7 +353,7 @@
 			width: 98%;
 			height: 100%;
 			content: "";
-			background: $theme;
+			background: $theme2;
 		}
 	}
 	.fiial-result-list {
@@ -374,7 +374,7 @@
 					width: 6px;
 					height: 6px;
 					border-radius: 50%;
-					background: $theme;
+					background: $theme2;
 				}
 				&:not(:last-child) {
 					margin-bottom: 12px;
@@ -423,7 +423,7 @@
 		width: 98%;
 		height: 100%;
 		content: "";
-		background: $theme;
+		background: $theme2;
 	}
 }
 //Case Study Section
@@ -453,7 +453,7 @@
 			}
 			h5 {
 				a {
-					color: $theme;
+					color: $theme2;
 				}
 			}
 		}
@@ -486,14 +486,14 @@
 	}
 	&:hover {
 		.blog-v4-btn {
-			background: $theme;
+			background: $theme2;
 			i {
 				color: $black;
 			}
 		}
 		h5 {
 			a {
-				color: $theme;
+				color: $theme2;
 			}
 		}
 	}

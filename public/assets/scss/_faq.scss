@@ -77,13 +77,13 @@
 	display: none;
 }
 .faq .active button {
-	color: $theme;
+	color: $theme2;
 }
 .faq .active button::after {
 	font-family: "FontAwesome";
 	transform: rotate(90deg);
 	font-weight: 700;
-	color: $theme;
+	color: $theme2;
 }
 
 //custom Accordion
@@ -100,7 +100,7 @@
 			color: $white;
 			font-weight: 400;
 			i {
-				color: $theme;
+				color: $theme2;
 				font-size: 14px;
 			}
 		}
@@ -164,7 +164,7 @@
 				&::after {
 					content: "\f068";
 					font-family: "FontAwesome";
-					color: $theme;
+					color: $theme2;
 					&:hover {
 						cursor: pointer;
 					}

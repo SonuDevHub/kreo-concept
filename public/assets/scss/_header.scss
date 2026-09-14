@@ -4,7 +4,7 @@
 	left: 0;
 	width: 100%;
 	@include maxQuery(991) {
-		background: $bg1 !important;
+		background: #241012 !important;
 		border-bottom: unset;
 		z-index: 9999 !important;
 	}
@@ -13,6 +13,7 @@
 	width: 100%;
 	z-index: 100;
 	z-index: 999;
+	background: #241012;
 	.brand-logo {
 		max-width: 265px;
 		@include maxQuery(1199) {
@@ -73,7 +74,7 @@
 					}
 					&:hover,
 					&.active {
-						color: $theme;
+						color: $theme2;
 						&::after {
 							transform: rotate(90deg);
 						}
@@ -151,7 +152,7 @@
 			transition: 0.5s;
 			top: 0;
 			span {
-				background: $theme;
+				background: $theme2;
 				display: block;
 				position: absolute;
 				height: 2px;
@@ -227,7 +228,7 @@
 	top: 0px;
 	z-index: 999;
 	width: 100%;
-	background: var(--bg1);
+	background: #241012;
 }
 .home2-border{
 	border-bottom: 1px solid #85858523;
@@ -276,7 +277,7 @@
 		}
 		i {
 			font-size: 36px;
-			color: $theme;
+			color: $theme2;
 		}
 	}
 	.sub-contact-wrapper {
@@ -299,9 +300,9 @@
 			margin-bottom: 40px;
 		}
 		.textp {
-			color: #bebebe;
+			color: #e8e2da;
 			&:hover {
-				color: $theme;
+				color: $theme2;
 			}
 		}
 		.social {
@@ -356,7 +357,7 @@
 .search-shopcart{
 	a{
 		&:hover{
-			color: $theme;
+			color: $theme2;
 		}
 	}
 }

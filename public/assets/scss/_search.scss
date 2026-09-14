@@ -47,8 +47,8 @@
 	text-transform: capitalize;
 	background: transparent;
 	font-size: 16px !important;
-	color: $theme;
-	border-bottom: 1px solid $theme;
+	color: $theme2;
+	border-bottom: 1px solid $theme2;
 	text-align: start;
 	letter-spacing: 2px;
 	::placeholder {
@@ -66,11 +66,11 @@
 
 .search-wrap input.form-control,
 .search-wrap input.form-control:focus {
-	background-color: $theme;
+	background-color: $theme2;
 }
 
 input.main-search-input::placeholder {
-	color: $theme;
+	color: $theme2;
 	opacity: 1;
 	font-size: 25px;
 }
@@ -84,6 +84,6 @@ input.main-search-input::placeholder {
 	top: 50px;
 	right: 50px;
 	font-size: 30px;
-	color: $theme;
+	color: $theme2;
 	cursor: pointer;
 }

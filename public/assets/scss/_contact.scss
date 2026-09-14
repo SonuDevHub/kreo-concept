@@ -35,8 +35,8 @@
 				background: $bg2;
 			}
 			&::after {
-				border-bottom: 2px solid $theme;
-				border-right: 2px solid $theme;
+				border-bottom: 2px solid $theme2;
+				border-right: 2px solid $theme2;
 				content: "";
 				display: block;
 				height: 10px;
@@ -57,8 +57,8 @@
 			width: 100%;
 			transition: all 0.5s;
 			&:hover {
-				border-color: $theme;
-				color: $theme;
+				border-color: $theme2;
+				color: $theme2;
 			}
 		}
 	}
@@ -100,3 +100,9 @@
 	}
 }
 //contact section
+
+.contact-content form input::placeholder,
+.contact-content form textarea::placeholder {
+	color: #e8e2da;
+	opacity: 1;
+}

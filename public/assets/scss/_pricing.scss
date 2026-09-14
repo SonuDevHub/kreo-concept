@@ -15,7 +15,7 @@
 				color: $white;
 				background: var(--bg1);
 				&.active {
-					background: $theme;
+					background: $theme2;
 					color: $black;
 				}
 			}
@@ -54,17 +54,17 @@
 			transition: all 0.4;
 		}
 		&:hover {
-			border-color: $theme;
-			color: $theme;
+			border-color: $theme2;
+			color: $theme2;
 			i {
-				color: $theme;
+				color: $theme2;
 			}
 		}
 	}
 	&:hover {
-		border-color: $theme;
+		border-color: $theme2;
 		.pricinge-head {
-			border-right: 1px solid $theme;
+			border-right: 1px solid $theme2;
 		}
 	}
 	@include maxQuery(1199) {

@@ -33,7 +33,7 @@
 				border-radius: 50%;
 				border-color: $white;
 				&:hover {
-					border-color: $theme;
+					border-color: $theme2;
 				}
 			}
 		}
@@ -118,8 +118,8 @@
 				&:hover {
 					svg {
 						path {
-							stroke: $theme;
-							fill: $theme;
+							stroke: $theme2;
+							fill: $theme2;
 						}
 					}
 				}
@@ -168,7 +168,7 @@
 						}
 					}
 					&:hover {
-						border-color: $theme;
+						border-color: $theme2;
 
 						svg {
 							path {
@@ -193,7 +193,7 @@
 				width: 24px;
 				height: 2px;
 				content: "";
-				background: $theme;
+				background: $theme2;
 			}
 		}
 	}
@@ -231,7 +231,7 @@
 							}
 						}
 						&:hover {
-							border-color: $theme;
+							border-color: $theme2;
 						}
 					}
 				}

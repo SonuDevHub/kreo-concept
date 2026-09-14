@@ -14,7 +14,7 @@
 		font-size: 13px;
 	}
 	i {
-		color: $theme;
+		color: $theme2;
 	}
 }
 .customer-man {
@@ -29,7 +29,7 @@
 //About Product Section
 .about-product-content {
 	.allyear-content {
-		border-top: 1px solid $theme;
+		border-top: 1px solid $theme2;
 		padding-top: 24px;
 		.allyear-item {
 			position: relative;
@@ -40,7 +40,7 @@
 				content: "";
 				width: 15px;
 				height: 16px;
-				background: $theme;
+				background: $theme2;
 				clip-path: polygon(48% 69%, 0 0, 100% 0);
 			}
 		}
@@ -149,10 +149,10 @@
 			}
 		}
 		a {
-			color: $theme;
+			color: $theme2;
 			span {
 				i {
-					color: $theme;
+					color: $theme2;
 				}
 			}
 		}
@@ -289,7 +289,7 @@
 		width: 100%;
 		.mission-v4-btn {
 			@include box(80);
-			background: $theme;
+			background: $theme2;
 			border-radius: 12px;
 			position: absolute;
 			right: 0;

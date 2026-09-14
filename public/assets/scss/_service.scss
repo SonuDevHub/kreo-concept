@@ -21,7 +21,7 @@
 			background: var(--bg1);
 			transition: all 0.5s;
 			span {
-				color: #8d8d8d;
+				color: #e8e2da;
 				font-weight: 500;
 				font-family: $body-font;
 				line-height: 18px;
@@ -71,7 +71,7 @@
 		}
 		&:hover {
 			.serial {
-				background: $theme;
+				background: $theme2;
 				span {
 					color: #fff;
 				}
@@ -165,7 +165,7 @@
 		background: var(--bg1);
 		i {
 			font-size: 29px;
-			color: $theme;
+			color: $theme2;
 		}
 	}
 	.step-circle {
@@ -214,9 +214,9 @@
   margin: 0 auto;
 }
 .social-profile ul li a:hover {
-  background-color: $theme;
+  background-color: $theme2;
   color: $black;
-  border-color: $theme;
+  border-color: $theme2;
 }
 @media (max-width: 575px) {
   .social-profile ul {

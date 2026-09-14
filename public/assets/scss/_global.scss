@@ -1,6 +1,6 @@
 //Preloader
 #progress {
-	background-color: $theme;
+	background-color: $theme2;
 	width: 40px;
 	height: 40px;
 	line-height: 40px;
@@ -24,7 +24,7 @@
 	}
 	&:hover {
 		cursor: pointer;
-		background-color: $theme;
+		background-color: $theme2;
 	}
 }
 //Preloader
@@ -32,9 +32,9 @@
 //Error Page
 .error-content {
 	.cmn-btn {
-		border: 1px solid $theme;
+		border: 1px solid $theme2;
 		&:hover {
-			color: $theme;
+			color: $theme2;
 			background: transparent;
 		}
 	}
